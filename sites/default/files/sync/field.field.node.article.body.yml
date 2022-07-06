@@ -20,7 +20,7 @@ translatable: true
 default_value:
   -
     summary: ''
-    value: "<p>sdgsdgdsgsdg</p>\r\n"
+    value: "<p>himmat</p>\r\n"
     format: basic_html
 default_value_callback: ''
 settings:
