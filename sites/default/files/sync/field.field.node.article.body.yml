@@ -14,10 +14,14 @@ field_name: body
 entity_type: node
 bundle: article
 label: Body
-description: ''
+description: teststset
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  -
+    summary: ''
+    value: "<p>sdgsdgdsgsdg</p>\r\n"
+    format: basic_html
 default_value_callback: ''
 settings:
   display_summary: true
