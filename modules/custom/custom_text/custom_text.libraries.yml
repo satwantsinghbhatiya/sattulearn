@@ -1,0 +1,22 @@
+custom_text.text:
+  version: VERSION
+  js:
+    js/text.js: {}
+  css:
+    theme:
+      css/custom_text.css: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+custom_text.tex2:
+  version: VERSION
+  js:
+    js/text.js: {}
+  css:
+    theme:
+      css/custom_text.css: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal

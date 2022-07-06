@@ -1,0 +1,14 @@
+uuid: f7f09871-fe43-47a0-9293-0adc0376f14b
+name: admin
+mail: admin@admin.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

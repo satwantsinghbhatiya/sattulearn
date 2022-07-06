@@ -1,0 +1,13 @@
+custom_text.display:
+  path: '/custom-text/display/{id}/{mtext}'
+  defaults:
+    _controller: '\Drupal\custom_text\Controller\CustomText::display_content'
+  requirements:
+    _permission: 'access content'
+custom_text.Myfiguration:
+  path: '/admin/config/custom_text/settings'
+  defaults:
+    _form: '\Drupal\custom_text\Form\MyConfigurationForm'
+    _title: 'My API Configuration'
+  requirements:
+    _permission: 'access content'

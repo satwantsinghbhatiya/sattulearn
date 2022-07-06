@@ -1,0 +1,6 @@
+custom_text.admin_form:
+  title: 'Custom settings'
+  parent: system.admin_config_development
+  description: 'Configure default user account settings, including fields, registration requirements, and email messages.'
+  weight: 1
+  route_name: custom_text.Myfiguration

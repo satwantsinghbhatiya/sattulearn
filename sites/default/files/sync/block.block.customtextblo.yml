@@ -1,0 +1,20 @@
+uuid: 88aabdf9-b163-4174-8e6d-90544e353da8
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_text
+  theme:
+    - bartik
+id: customtextblo
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: custom_text_block
+settings:
+  id: custom_text_block
+  label: 'Custom text blo'
+  provider: custom_text
+  label_display: visible
+visibility: {  }
