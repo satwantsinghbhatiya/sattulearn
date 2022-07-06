@@ -2,6 +2,6 @@ testing_module.listing:
   path: '/my-testing-page'
   defaults:
     _controller: '\Drupal\testing_module\Controller\TestingController::listings'
-    _title: 'MY satwant Site testing'
+    _title: 'MY satwant Si'
   requirements:
     _permission: 'access content'
