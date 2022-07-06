@@ -2,6 +2,6 @@ testing_module.listing:
   path: '/my-testing-page'
   defaults:
     _controller: '\Drupal\testing_module\Controller\TestingController::listings'
-    _title: 'MY Drupal kimmat'
+    _title: 'MY branch kimmat'
   requirements:
     _permission: 'access content'
