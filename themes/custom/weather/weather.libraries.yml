@@ -1,0 +1,6 @@
+# Global styling
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}

@@ -1,0 +1,22 @@
+<section class="page-section" id="services">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mt-0">{{ content.field_title }}</h2>
+                <hr class="divider" />
+                <div class="row gx-4 gx-lg-5">
+                {% for key, item in content["field_para_loop"] %}
+                        {% if key matches '/^\\d+$/' %}
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <div class="mt-5">
+                                    <div class="mb-2"> <img class="bi-gem fs-1 text-primary" src="{{ file_url(item['#paragraph'].field_icon_image.entity.uri.value) }}"></div>
+                                    <h3 class="h4 mb-2">{{ item['#paragraph'].field_sturdy_themes.value }}</h3>
+                                    <p class="text-muted mb-0">{{ item['#paragraph'].field_description.value|raw }}</p>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                
+                   
+                 
+                </div>
+            </div>
+        </section>
