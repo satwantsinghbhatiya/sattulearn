@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implements template_preprocess_node() for page document templates.
+ */
+function weather_preprocess_node(&$variables) {
+  //check current node
+	if ($node = \Drupal::routeMatch()->getParameter('node')) {
+		if(isset($variables['content']['field_city'][0]['#city'])){
+			$load_services = \Drupal::service('openweather.weather_service');
+			$option['input_options'] = 'city_name';
+			$option['input_value'] = $variables['content']['field_city'][0]['#city'];
+			$option['display_type'] = 'current_details';
+			$response_data = json_decode($load_services->getWeatherInformation($option));
+			$temp = $response_data->main->temp - 273.15;
+			$variables['temp'] = $temp;
+		}    
+  }
+}

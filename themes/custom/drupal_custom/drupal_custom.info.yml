@@ -1,0 +1,21 @@
+name: drupal custom theme
+type: theme
+discription: "custom theme"
+package: other
+core_version_requirement: ^8 || ^9
+libraries:
+  - drupal_custom/global-style-custom
+
+regions:
+  branding: Branding
+  navigation: Main navigation
+  search: Search
+  banner: Banner
+  featured: Featured
+  content: Content
+  right_sidebar: Right sidebar
+  footer_first: Footer First
+  footer_second: Footer Second
+  footer_third: Footer Third
+  footer_bottom: Footer Bottom
+

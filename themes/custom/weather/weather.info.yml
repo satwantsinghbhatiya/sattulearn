@@ -1,0 +1,14 @@
+name: 'Weather'
+type: theme
+description: 'Show current Weather.'
+package: custom
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+base theme: stable
+
+regions:
+  content: 'Content'
+
+libraries:
+  - weather/global-styling
